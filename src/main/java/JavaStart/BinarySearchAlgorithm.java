@@ -5,6 +5,16 @@ import java.util.Scanner;
 public class BinarySearchAlgorithm {
     public static void main(String[] args) {
 
+        int i=0;
+        addTow(i++);
+        System.out.println(i);
+        int a, b, c;
+        b= 10;
+        a=b=c=20;
+
+
+
+
 //        the ordered array
         int [] myArrayList = new int[6];
         myArrayList[0] = 2;
@@ -41,5 +51,9 @@ public class BinarySearchAlgorithm {
             leftIndex = midPoint +1;
         }
         return  -1;
+    }
+
+    static void addTow(int a){
+        a +=2;
     }
 }
